@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Learnify | Online Courses</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">
+            <span>Learn</span>ify
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#courses">Courses</a>
+            <a href="#categories">Categories</a>
+            <a href="#instructors">Instructors</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="theme-btn" id="themeBtn">☾</button>
+            <button class="login-btn">Log in</button>
+            <button class="signup-btn">Get Started</button>
+        </div>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+    </header>
+
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+                <span class="hero-badge">🚀 Learn without limits</span>
+
+                <h1>
+                    Learn skills that
+                    <span>move you forward.</span>
+                </h1>
+
+                <p>
+                    Discover high-quality courses taught by experienced
+                    instructors and build skills that actually matter.
+                </p>
+
+                <div class="hero-search">
+                    <span>⌕</span>
+                    <input
+                        type="text"
+                        id="heroSearch"
+                        placeholder="What do you want to learn?"
+                    >
+                    <button id="searchBtn">Search</button>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <strong>12K+</strong>
+                        <span>Students</span>
+                    </div>
+
+                    <div>
+                        <strong>250+</strong>
+                        <span>Courses</span>
+                    </div>
+
+                    <div>
+                        <strong>80+</strong>
+                        <span>Instructors</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="floating-card card-one">
+                    <span>🔥</span>
+                    <div>
+                        <strong>JavaScript</strong>
+                        <small>24 Lessons</small>
+                    </div>
+                </div>
+
+                <div class="main-visual">
+                    <div class="play-button">▶</div>
+                </div>
+
+                <div class="floating-card card-two">
+                    <div class="avatar">AM</div>
+                    <div>
+                        <strong>Ahmed Mostafa</strong>
+                        <small>Frontend Developer</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="categories" id="categories">
+
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">EXPLORE</span>
+                    <h2>Explore by category</h2>
+                </div>
+
+                <a href="#courses">View all →</a>
+            </div>
+
+            <div class="category-list">
+
+                <button class="category active" data-category="All">
+                    <span>✨</span>
+                    All
+                </button>
+
+                <button class="category" data-category="Development">
+                    <span>💻</span>
+                    Development
+                </button>
+
+                <button class="category" data-category="Design">
+                    <span>🎨</span>
+                    Design
+                </button>
+
+                <button class="category" data-category="Business">
+                    <span>📈</span>
+                    Business
+                </button>
+
+                <button class="category" data-category="Marketing">
+                    <span>📣</span>
+                    Marketing
+                </button>
+
+                <button class="category" data-category="Data">
+                    <span>📊</span>
+                    Data
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section class="courses-section" id="courses">
+
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">POPULAR COURSES</span>
+                    <h2>Start learning today</h2>
+                </div>
+
+                <div class="course-controls">
+
+                    <input
+                        type="text"
+                        id="courseSearch"
+                        placeholder="Search courses..."
+                    >
+
+                    <select id="levelFilter">
+                        <option value="All">All levels</option>
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Advanced">Advanced</option>
+                    </select>
+
+                </div>
+            </div>
+
+
+            <div class="courses-grid" id="coursesGrid"></div>
+
+        </section>
+
+
+        <section class="instructor-section" id="instructors">
+
+            <div class="instructor-content">
+
+                <span class="eyebrow">BECOME AN INSTRUCTOR</span>
+
+                <h2>
+                    Share your knowledge.
+                    <span>Build your audience.</span>
+                </h2>
+
+                <p>
+                    Teach what you know and help thousands of students
+                    build their future.
+                </p>
+
+                <button class="primary-btn">
+                    Become an instructor →
+                </button>
+
+            </div>
+
+            <div class="instructor-art">
+                <div class="art-circle">👨‍💻</div>
+                <div class="art-box">100%<small>Creative</small></div>
+                <div class="art-box second">24K<small>Students</small></div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-top">
+
+            <div>
+                <a href="#" class="logo">
+                    <span>Learn</span>ify
+                </a>
+
+                <p>
+                    Learn better. Build better.
+                    Become better.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <div>
+                    <strong>Platform</strong>
+                    <a href="#">Courses</a>
+                    <a href="#">Instructors</a>
+                    <a href="#">Pricing</a>
+                </div>
+
+                <div>
+                    <strong>Company</strong>
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact</a>
+                </div>
+
+                <div>
+                    <strong>Support</strong>
+                    <a href="#">Help Center</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Learnify. All rights reserved.
+        </div>
+
+    </footer>
+
+
+    <div class="modal" id="courseModal">
+
+        <div class="modal-content">
+
+            <button class="close-modal" id="closeModal">×</button>
+
+            <div id="modalBody"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

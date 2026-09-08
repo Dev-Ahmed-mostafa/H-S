@@ -41,24 +41,45 @@
     </header>
     <main>
         <div class="home-page">
-            <h1>Welcome to Hash & Slash Courses</h1>
+            <h1>
+                Welcome to Hash & Slash Courses,
+                <span>
+                    Your Learn Code Space, Then Your Job Workspace
+                </span>
+            </h1>
             <p>
                 Discover our comprehensive courses and advance your skills with our expert instructors.
             </p>
             <button>Explore Courses</button>
             <button>Learn More</button>
+            <div class="hero-stats">
+                <div class="stat">
+                    <p>students</p>
+                    <h5>5M+</h5>
+                </div>
+                <div class="stat">
+                    <p>Courses</p>
+                    <h5>10+</h5>
+                </div>
+                <div class="stat">
+                    <p>Instructor</p>
+                    <h5>5M+</h5>
+                </div>
+            </div>
+            <img src="image.png" alt="code">
         </div>
-        
+
         <div class="about-us">
             <div class="card">
                 <h2>About Us</h2>
                 <img src="" alt="">
-                <p>Learn more about Hash & Slash and our mission to provide high-quality education. We're committed to delivering exceptional learning experiences.</p>
+                <p>Learn more about Hash & Slash and our mission to provide high-quality education. We're committed to
+                    delivering exceptional learning experiences.</p>
                 <button>Explore Courses</button>
                 <button>Explore Features</button>
             </div>
         </div>
-        
+
         <div class="features">
             <h2>Our Features</h2>
             <div class="feature-list">
@@ -67,19 +88,19 @@
                     <h3>Expert Instructors</h3>
                     <p>Learn from industry professionals with years of experience in their respective fields.</p>
                 </div>
-        
+
                 <div class="feature-item">
                     <i class="fa-solid fa-desktop"></i>
                     <h3>Premium Hardware</h3>
                     <p>High-performance devices for hands-on learning and professional work.</p>
                 </div>
-        
+
                 <div class="feature-item">
                     <i class="fa-solid fa-user-group"></i>
                     <h3>5M+ Learners</h3>
                     <p>A growing community building skills for the future.</p>
                 </div>
-        
+
                 <div class="feature-item">
                     <i class="fa-solid fa-certificate"></i>
                     <h3>Verified Certificates</h3>
@@ -94,12 +115,36 @@
         </div>
         <div id="courses">
             <h2>Our Courses</h2>
+            <div class="explore-courses">
+                <div id="course-type">
+                    <h1>Choose Course Type</h1>
+                    <div id="courses-types">
+                        <div class="type">
+                            <h2>All</h2>
+                        </div>
+                        <!-- it's Course type model
+                         The Types fetched by backend -->
+                        <!-- <div class="type">
+                            <h2>Web Development</h2>
+                        </div>
+                        <div class="type">
+                            <h2>App Development</h2>
+                        </div>
+                        <div class="type">
+                            <h2>Server Development</h2>
+                        </div>
+                        <div class="type">
+                            <h2>Other Developments</h2>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
             <div class="course-list">
                 <!-- 
                     This is courses model
                     The courses fetched from in Backend & JS
                 -->
-                <!-- <div class="course-item">
+                <div class="course-item">
                     <div class="top"><img src="" alt=""></div>
                     <div class="content">
                         <h3>Web Design Fundamentals course</h3>
@@ -108,6 +153,9 @@
                     <div class="bottom">
                         <button>Enroll Now</button>
                         <button>More Details</button>
+                        <div class="course-type">
+                            <p>Webiste Developments</p>
+                        </div>
                     </div>
                 </div>
                 <div class="course-item">
@@ -119,8 +167,11 @@
                     <div class="bottom">
                         <button>Enroll Now</button>
                         <button>More Details</button>
+                        <div class="course-type">
+                            <p>Web Development</p>
+                        </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
         <div class="contact-us">
@@ -133,7 +184,7 @@
                 <button type="submit">Send Message</button>
             </form>
         </div>
-        
+
         <div class="creators-page">
             <h2>Meet Our Creators</h2>
             <p>Learn about the talented individuals behind our courses.</p>
