@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Awesome Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <!-- Main Styling file -->
+     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -20,6 +21,7 @@
         <nav>
             <a href="#">Home</a>
             <a href="#">About</a>
+            <a href="">Courses</a>
             <a href="#">Contact Us</a>
         </nav>
         <div class="form">
@@ -34,7 +36,6 @@
             </div>
         </div>
         <div class="themes">
-            <div class="default"><i class="fa-solid fa-desktop"></i></div>
             <div class="dark-theme"><i class="fa-solid fa-moon"></i></div>
             <div class="light-theme"><i class="fa-solid fa-sun"></i></div>
         </div>
@@ -78,8 +79,7 @@
                 <p>Instructor</p>
                 <h5>5M+</h5>
             </div>
-        </div>
-        <img src="image.png" alt="code">
+            <img src="image.png" alt="code">
         </div>
 
         <div class="about-us">
@@ -92,7 +92,10 @@
                 <button>Explore Features</button>
             </div>
         </div>
-
+        <div class="choose-us">
+            <h2>Why Choose Us ?</h2>
+            <p>We provide you with effective devices you need for testing</p>
+        </div>
         <div class="features">
             <h2>Our Features</h2>
             <div class="feature-list">
@@ -130,7 +133,7 @@
         <div id="courses">
             <h2>Our Courses</h2>
             <div class="explore-courses">
-                <div id="course-type">
+                <div id="courses-filter">
                     <h3>Choose Course Type</h3>
                     <div id="courses-types">
                         <div class="type">
@@ -150,7 +153,7 @@
                         <div class="type">
                             <h2>Other Developments</h2>
                         </div>
-                    </div> -->
+                    -->
                     </div>
                 </div>
                 <div class="course-list">
@@ -158,10 +161,10 @@
                     This is courses model
                     The courses fetched from in Backend & JS
                 -->
-                    <div class="course-item">
+                    <!-- <div class="course-item">
                         <div class="top"><img src="" alt=""></div>
                         <div class="content">
-                            <h3>Web Design Fundamentals course</h3>
+                            <h3>Basics of Web Design Fundamentals course</h3>
                             <p>Learn the basics of web design and create stunning websites.</p>
                         </div>
                         <div class="bottom">
@@ -169,6 +172,13 @@
                             <button>More Details</button>
                             <div class="course-type">
                                 <p>Webiste Developments</p>
+                            </div>
+                            <div class="programming-langs">
+                                <div class="lang">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>JS</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -184,8 +194,36 @@
                             <div class="course-type">
                                 <p>Web Development</p>
                             </div>
+                            <div class="programming-langs">
+                                <p>JS</p>
+                            </div>
                         </div>
-                    </div>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="how-it-works">
+                <h2>How It Works</h2>
+                <h3>Learn skills. Build projects. Prepare for your future.</h3>
+
+                <div class="step-card">
+                    <h4>Choose a Course</h4>
+                    <p>Choose the course that suits you.</p>
+                </div>
+
+                <div class="step-card">
+                    <h4>Learn</h4>
+                    <p>Watch lessons and practice what you learn. <b>(Very important)</b></p>
+                </div>
+
+                <div class="step-card">
+                    <h4>Build</h4>
+                    <p>Build real projects for your CV.</p>
+                </div>
+
+                <div class="step-card">
+                    <h4>Grow</h4>
+                    <p>Build your skills and prepare for work.</p>
                 </div>
             </div>
             <div class="contact-us">
@@ -210,8 +248,24 @@
             </div>
     </main>
     <footer>
+        <div class="feedback">
+            <h3>Give Us Your Feedback for Our Platform</h3>
+            <div class="stars">
+                <i class="fa-regular fa-star" data-rating="1"></i>
+                <i class="fa-regular fa-star" data-rating="2"></i>
+                <i class="fa-regular fa-star" data-rating="3"></i>
+                <i class="fa-regular fa-star" data-rating="4"></i>
+                <i class="fa-regular fa-star" data-rating="5"></i>
+            </div>
+            <button class="submit-feedback">Submit</button>
+        </div>
+        <div class="footer-links">
+            <h4>Main Page</h4>
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Contact us</a>
+        </div>
         <p>&copy; 2023 Hash & Slash Courses. All rights reserved.</p>
     </footer>
 </body>
-
 </html>

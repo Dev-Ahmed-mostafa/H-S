@@ -1,0 +1,69 @@
+:root {
+    --main-font: "Poppins";
+    --secondary-color: #242424;
+    --primary-color: ;
+}
+
+* {
+    font-family: "Poppins";
+    transition: all .3s ease;
+}
+
+body,
+html {
+    width: 100%;
+    background-color: #1d1d1d;
+    color: #fff;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+
+header h2 { margin-inline: 10px; }
+
+header nav {
+    margin: auto;
+}
+
+header nav a { margin: 10px; text-decoration: none; color: #fff; font-size: 14px; }
+header  nav a:hover {color: #ccc;}
+
+.themes {
+    display: flex;
+    gap: 16px;
+    left: -40px;
+}
+
+.form button {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+.form , .lang ,.themes {
+    position: relative;
+}
+
+.form button:nth-child(1) {
+    background: #4F7CFF;
+}
+.form button:nth-child(2) {
+    background: transparent;
+    border: 1px  solid var(--secondary-color);
+}
