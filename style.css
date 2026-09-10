@@ -1,11 +1,10 @@
 :root {
-    --main-font: "Poppins";
-    --secondary-color: #242424;
-    --primary-color: ;
+    --main-font: "Poppins", 'Sigeo UI', Tahoma, Geneva, Verdana, sans-serif;
+    --secondary-color: #2d2d2d;
+    --primary-color: #4F7CFF;
 }
 
 * {
-    font-family: "Poppins";
     transition: all .3s ease;
 }
 
@@ -17,7 +16,10 @@ html {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    font-family: var(--main-font);
 }
+
+button, input, textarea { font-family: var(--main-font); cursor: pointer; }
 
 header {
     width: 100%;
@@ -25,45 +27,203 @@ header {
     display: flex;
     align-items: center;
     gap: 30px;
-    background: var(--secondary-color);
+    background: #242424;
     margin: 0;
     padding: 0;
     position: fixed;
+    top: 0px;
 }
 
-header h2 { margin-inline: 10px; }
+header h2 {
+    margin-inline: 10px;
+}
 
 header nav {
     margin: auto;
 }
 
-header nav a { margin: 10px; text-decoration: none; color: #fff; font-size: 14px; }
-header  nav a:hover {color: #ccc;}
+header nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
 
+header nav a:hover {
+    color: #b6b6b6;
+}
+
+.form,
+.lang,
 .themes {
-    display: flex;
-    gap: 16px;
-    left: -40px;
+    position: relative;
+}
+
+.form {
+    left: -30px;
 }
 
 .form button {
     width: 100px;
     height: 40px;
     font-size: 16px;
-    font-weight: 500;
     border-radius: 5px;
     border: none;
     color: #fff;
+    margin-inline-start: 10px;
 }
 
-.form , .lang ,.themes {
-    position: relative;
-}
 
 .form button:nth-child(1) {
-    background: #4F7CFF;
+    background: var(--primary-color);
 }
+
+.form button:nth-child(1):hover {
+    background-color: #4473ff;
+}
+
 .form button:nth-child(2) {
     background: transparent;
-    border: 1px  solid var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    color: #c4c4c4;
 }
+
+.form button:nth-child(2):hover {
+    color: #fff;
+    border: #ccc solid 1px;
+}
+
+.lang {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 15px;
+    position: relative;
+    left: -40px;
+}
+
+.lang .icon {
+    width: 32px;
+    height: 32px;
+    margin-inline: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -6px;    
+    transition: background-color .2s ease;
+}
+
+.lang .content {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    background-color: #2d2d2d;
+    width: 90px;
+    padding: 10px;
+    gap: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.lang .content button {
+    width: 100%;
+    height: 30px;
+    background: none;
+    color: #fff;
+    border: none;
+    transition: all .2s ease;
+    text-align: left;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.lang .content button:hover {
+    background-color: #1e1e1e;
+}
+
+.lang:hover .icon {
+    background-color: var(--secondary-color);
+}
+
+.lang:hover .content {
+    display: flex;
+}
+
+.themes {
+    display: flex;
+    position: relative;
+    left: -40px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+    padding-inline: 15px;
+    padding-block: 3px;
+    cursor: pointer;
+    transition: all .1s ease;
+}
+
+.themes i {
+    font-size: 14px;
+}
+
+.themes div {
+    border-radius: 50%;
+    width: 24px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.themes div:hover {
+    background-color: #424242;
+}
+
+.home-page { width: 150vw; padding: 20px; height: calc(100vh + 80px); margin-top: 75px; }
+
+
+@media (max-width: 500px) {
+    .home-page { text-align: center; display: flex; flex-direction: column; }
+    .home-page h1 {
+        width: 280px;
+        text-align: center;
+        margin: auto;
+    }
+    .home-page p {
+    text-align: center;
+    }
+}
+
+.home-page h1 {
+    margin-left: 10px;
+}
+
+.home-page h1 span {
+    color: var(--primary-color);
+}
+
+.home-page p {
+    width: 10%;
+    min-width: 280px;
+    margin-left: 20px;
+}
+
+.home-page button {
+    width: 150px;
+    height: 40px;
+    margin-inline: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    color: #fff;
+}
+
+.home-page button:nth-of-type(1):not(:last-child) {
+    background: var(--primary-color);
+}
+
