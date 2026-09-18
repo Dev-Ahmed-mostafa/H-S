@@ -299,7 +299,6 @@ document.getElementById("searchBtn")
         renderCourses();
     });
 
-
 themeBtn.addEventListener("click", () => {
 
     document.body.classList.toggle("dark");
@@ -310,6 +309,5 @@ themeBtn.addEventListener("click", () => {
             : "☾";
 
 });
-
 
 renderCourses();

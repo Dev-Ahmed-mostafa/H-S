@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hash & Slash is a practical learning platform where you learn, build and prepare for work.">
+    <title>Hash & Slash | Learn. Code. Work.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaScreens.css">
+</head>
+<body>
+    <div class="ambient ambient-blue"></div>
+    <div class="ambient ambient-purple"></div>
+
+    <header class="site-header">
+        <a href="#home" class="brand" aria-label="Hash & Slash home">
+            <span class="brand-mark">&lt;/&gt;</span>
+            <span>Hash &amp; Slash</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+            <button class="btn btn-ghost" type="button">Log In</button>
+            <button class="btn btn-primary btn-small" type="button">Sign Up</button>
+            <button class="icon-btn" type="button" aria-label="Language">
+                <i class="fa-solid fa-globe"></i>
+            </button>
+            <button class="icon-btn" type="button" aria-label="Theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero section-shell" id="home">
+            <div class="hero-copy">
+                <div class="eyebrow"><span></span> Learn. Build. Grow.</div>
+
+                <h1>
+                    Learn here.<br>
+                    <strong>Work here.</strong>
+                </h1>
+
+                <p>
+                    Practical courses, real projects, and a clear path from
+                    learning your first skill to building your future.
+                </p>
+
+                <div class="hero-buttons">
+                    <a class="btn btn-primary" href="#courses">
+                        Explore Courses
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a class="btn btn-outline" href="#how-it-works">How It Works</a>
+                </div>
+
+                <div class="hero-search">
+                    <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="search-copy">
+                        <small>Find your next skill</small>
+                        <span>What do you want to learn?</span>
+                    </div>
+                    <button class="btn btn-primary btn-search" type="button">Search</button>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat"><strong>5M+</strong><span>Students</span></div>
+                    <div class="stat-line"></div>
+                    <div class="stat"><strong>10+</strong><span>Courses</span></div>
+                    <div class="stat-line"></div>
+                    <div class="stat"><strong>100%</strong><span>Practical</span></div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="glow-ring ring-one"></div>
+                <div class="glow-ring ring-two"></div>
+
+                <div class="code-card">
+                    <div class="code-topbar">
+                        <div class="window-dots"><span></span><span></span><span></span></div>
+                        <span>learning.js</span>
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+
+                    <div class="code-body">
+                        <div><b>01</b><span class="purple">const</span> developer = {</div>
+                        <div class="indent"><b>02</b><span class="blue">learn</span>: <span class="green">"every day"</span>,</div>
+                        <div class="indent"><b>03</b><span class="blue">build</span>: <span class="green">"real projects"</span>,</div>
+                        <div class="indent"><b>04</b><span class="blue">grow</span>: <span class="green">"with purpose"</span></div>
+                        <div><b>05</b>};</div>
+                        <div class="blank"><b>06</b></div>
+                        <div><b>07</b><span class="comment">// Ready for your next commit.</span></div>
+                    </div>
+                </div>
+
+                <div class="floating-card continue-card">
+                    <div class="mini-icon react-icon"><i class="fa-brands fa-react"></i></div>
+                    <div>
+                        <small>Continue learning</small>
+                        <strong>React Fundamentals</strong>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow-muted"></i>
+                </div>
+
+                <div class="floating-card progress-card">
+                    <div class="progress-ring">78%</div>
+                    <div>
+                        <small>Your progress</small>
+                        <strong>Keep building</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-shell section-block" id="about">
+            <div class="section-heading">
+                <span class="section-kicker">WHO WE ARE</span>
+                <h2>Built around the way developers <span>actually learn.</span></h2>
+            </div>
+
+            <div class="about-grid">
+                <article class="about-card about-main">
+                    <div class="about-icon"><i class="fa-solid fa-terminal"></i></div>
+                    <h3>From learning to real work</h3>
+                    <p>
+                        Hash &amp; Slash is designed around a simple idea: learning should lead somewhere.
+                        Learn the concept, practice it, build something real, and keep improving.
+                    </p>
+                    <div class="tag-row">
+                        <span>Learn Here</span><span>Build Here</span><span>Work Here</span>
+                    </div>
+                </article>
+
+                <article class="about-card about-side">
+                    <small>01</small>
+                    <h3>Clear paths</h3>
+                    <p>Know what to learn next instead of opening another 37 browser tabs.</p>
+                </article>
+
+                <article class="about-card about-side">
+                    <small>02</small>
+                    <h3>Practical focus</h3>
+                    <p>Turn every new skill into something you can actually build.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-shell section-block why-section">
+            <div class="section-heading centered">
+                <span class="section-kicker">WHY HASH &amp; SLASH</span>
+                <h2>Everything you need to <span>move forward.</span></h2>
+                <p>Less passive watching. More practice, useful projects, and progress you can actually see.</p>
+            </div>
+
+            <div class="feature-list">
+                <article class="feature-item">
+                    <div class="feature-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                    <span class="feature-number">01</span>
+                    <h3>Expert Instructors</h3>
+                    <p>Learn from experienced instructors focused on practical skills.</p>
+                </article>
+
+                <article class="feature-item">
+                    <div class="feature-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <span class="feature-number">02</span>
+                    <h3>Practical Learning</h3>
+                    <p>Practice concepts through exercises and projects, not just slides.</p>
+                </article>
+
+                <article class="feature-item">
+                    <div class="feature-icon"><i class="fa-solid fa-road"></i></div>
+                    <span class="feature-number">03</span>
+                    <h3>Learning Paths</h3>
+                    <p>Follow structured paths from fundamentals to modern development.</p>
+                </article>
+
+                <article class="feature-item">
+                    <div class="feature-icon"><i class="fa-solid fa-users"></i></div>
+                    <span class="feature-number">04</span>
+                    <h3>Growing Community</h3>
+                    <p>Learn alongside a community that is building for the future.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-shell section-block" id="courses">
+            <div class="section-topline">
+                <div class="section-heading">
+                    <span class="section-kicker">LEARNING LIBRARY</span>
+                    <h2>Choose your next <span>course.</span></h2>
+                </div>
+                <a class="view-all" href="#courses">View all <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="courses-layout">
+                <aside class="courses-filter">
+                    <h3>Course Type</h3>
+                    <div class="course-types">
+                        <button class="type active" type="button"><span>All</span><i class="fa-solid fa-arrow-right"></i></button>
+                        <button class="type" type="button"><span>Web Development</span><i class="fa-solid fa-arrow-right"></i></button>
+                        <button class="type" type="button"><span>App Development</span><i class="fa-solid fa-arrow-right"></i></button>
+                        <button class="type" type="button"><span>Server Development</span><i class="fa-solid fa-arrow-right"></i></button>
+                        <button class="type" type="button"><span>Other Development</span><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </aside>
+
+                <div class="course-list">
+                    <article class="course-item">
+                        <div class="course-cover react-cover">
+                            <span class="badge">Popular</span>
+                            <i class="fa-brands fa-react"></i>
+                            <strong>REACT</strong>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-meta"><span>Web Development</span><b>•</b><span>Beginner</span></div>
+                            <h3>React Fundamentals</h3>
+                            <p>Build modern interfaces and understand the fundamentals behind React applications.</p>
+                            <div class="course-bottom"><strong>$29</strong><button class="course-action" type="button" aria-label="Open course"><i class="fa-solid fa-arrow-up-right-from-square"></i></button></div>
+                        </div>
+                    </article>
+
+                    <article class="course-item">
+                        <div class="course-cover js-cover">
+                            <span class="badge">Core Skill</span>
+                            <i class="fa-brands fa-js"></i>
+                            <strong>JAVASCRIPT</strong>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-meta"><span>Web Development</span><b>•</b><span>Intermediate</span></div>
+                            <h3>JavaScript Essentials</h3>
+                            <p>Master the language that powers dynamic web experiences and modern frontend applications.</p>
+                            <div class="course-bottom"><strong>$35</strong><button class="course-action" type="button" aria-label="Open course"><i class="fa-solid fa-arrow-up-right-from-square"></i></button></div>
+                        </div>
+                    </article>
+
+                    <article class="course-item">
+                        <div class="course-cover html-cover">
+                            <span class="badge">Start Here</span>
+                            <i class="fa-brands fa-html5"></i>
+                            <strong>HTML + CSS</strong>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-meta"><span>Web Development</span><b>•</b><span>Beginner</span></div>
+                            <h3>Web Design Fundamentals</h3>
+                            <p>Learn semantic HTML, responsive CSS, and clean interface structure.</p>
+                            <div class="course-bottom"><strong>$25</strong><button class="course-action" type="button" aria-label="Open course"><i class="fa-solid fa-arrow-up-right-from-square"></i></button></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-shell section-block" id="how-it-works">
+            <div class="section-heading centered">
+                <span class="section-kicker">HOW IT WORKS</span>
+                <h2>Four steps. One <span>direction.</span></h2>
+                <p>Learn a skill, use it, build with it, and keep moving.</p>
+            </div>
+
+            <div class="steps">
+                <article class="step-card"><span class="step-number">01</span><div class="step-icon"><i class="fa-solid fa-compass"></i></div><h3>Choose</h3><p>Choose the course that matches your current goal.</p></article>
+                <article class="step-card"><span class="step-number">02</span><div class="step-icon"><i class="fa-solid fa-book-open"></i></div><h3>Learn</h3><p>Watch lessons, take notes, and practice what you learn.</p></article>
+                <article class="step-card"><span class="step-number">03</span><div class="step-icon"><i class="fa-solid fa-code"></i></div><h3>Build</h3><p>Turn your knowledge into real projects for your portfolio.</p></article>
+                <article class="step-card"><span class="step-number">04</span><div class="step-icon"><i class="fa-solid fa-chart-line"></i></div><h3>Grow</h3><p>Improve your skills and prepare for real-world work.</p></article>
+            </div>
+        </section>
+
+        <section class="section-shell section-block" id="contact">
+            <div class="contact-card">
+                <div class="contact-copy">
+                    <span class="section-kicker">LET'S TALK</span>
+                    <h2>Have a question? <span>We're listening.</span></h2>
+                    <p>Need help with a course, the platform, or something that broke five minutes before the deadline? Send us a message.</p>
+                    <div class="contact-points">
+                        <span><i class="fa-solid fa-circle-check"></i> Course support</span>
+                        <span><i class="fa-solid fa-circle-check"></i> Platform assistance</span>
+                        <span><i class="fa-solid fa-circle-check"></i> General questions</span>
+                    </div>
+                </div>
+
+                <form action="#" method="post">
+                    <label for="name">Your Name</label>
+                    <input id="name" name="name" type="text" placeholder="Ahmed Mostafa" autocomplete="name" required>
+                    <label for="email">Your Email</label>
+                    <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Tell us what you need..." required></textarea>
+                    <button class="btn btn-primary" type="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+
+        <section class="section-shell creator-section">
+            <div class="creator-copy">
+                <span class="section-kicker">BEHIND THE PLATFORM</span>
+                <h2>Meet the creator.</h2>
+                <p>Hash &amp; Slash is built with a frontend mindset: clear interfaces, practical learning, and a lot of code.</p>
+            </div>
+
+            <article class="creator-card">
+                <div class="creator-avatar">&lt;/&gt;</div>
+                <div>
+                    <h3>Ahmed Mostafa</h3>
+                    <p>Front-end Developer</p>
+                </div>
+                <span class="status"><i></i> Building</span>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="section-shell">
+            <div class="feedback-bar">
+                <div>
+                    <span class="section-kicker">FEEDBACK</span>
+                    <h3>How are we doing?</h3>
+                </div>
+                <div class="feedback-actions">
+                    <div class="stars" aria-label="Rate our platform">
+                        <button type="button" data-rating="1"><i class="fa-regular fa-star"></i></button>
+                        <button type="button" data-rating="2"><i class="fa-regular fa-star"></i></button>
+                        <button type="button" data-rating="3"><i class="fa-regular fa-star"></i></button>
+                        <button type="button" data-rating="4"><i class="fa-regular fa-star"></i></button>
+                        <button type="button" data-rating="5"><i class="fa-regular fa-star"></i></button>
+                    </div>
+                    <button class="btn btn-ghost feedback-submit" type="button">Submit</button>
+                </div>
+            </div>
+
+            <div class="footer-main">
+                <a href="#home" class="brand"><span class="brand-mark">&lt;/&gt;</span><span>Hash &amp; Slash</span></a>
+                <p>Learn skills. Build projects. Prepare for your future.</p>
+                <div class="footer-links"><a href="#home">Home</a><a href="#about">About</a><a href="#courses">Courses</a><a href="#contact">Contact</a></div>
+            </div>
+
+            <div class="footer-bottom">
+                <span>&copy; 2026 Hash &amp; Slash Courses. All rights reserved.</span>
+                <span>Learn. Code. Work.</span>
+            </div>
+        </div>
+    </footer>
+    <div id="feedback-message"><p>Thanks for your Feedback</p></div>
+    <!-- Design Script -->
+    <script src="design.js"></script>
+    <!-- Main Script -->
+    <script></script>
+</body>
+</html>
