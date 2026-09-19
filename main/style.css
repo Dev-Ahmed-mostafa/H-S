@@ -271,7 +271,7 @@ section {
     background-clip: text;
 }
 
-.hero-copy > p {
+.hero-copy>p {
     max-width: 590px;
     margin-top: 25px;
     color: var(--muted);
@@ -421,12 +421,12 @@ section {
     background: #596278;
 }
 
-.code-topbar > span {
+.code-topbar>span {
     color: var(--muted);
     font-size: .72rem;
 }
 
-.code-topbar > i {
+.code-topbar>i {
     justify-self: end;
     color: var(--muted-2);
     font-size: .75rem;
@@ -438,7 +438,7 @@ section {
     color: #dbe3ff;
 }
 
-.code-body > div {
+.code-body>div {
     display: flex;
     gap: 9px;
     white-space: nowrap;
@@ -569,7 +569,7 @@ section {
     background-clip: text;
 }
 
-.section-heading > p {
+.section-heading>p {
     margin-top: 14px;
     color: var(--muted);
 }
@@ -807,6 +807,8 @@ section {
     align-items: center;
     gap: 4px;
     overflow: hidden;
+    background: linear-gradient(145deg, #242844, #12152b);
+
 }
 
 .course-cover::before,
@@ -832,17 +834,6 @@ section {
     background: rgba(0, 0, 0, .12);
 }
 
-.react-cover {
-    background: linear-gradient(145deg, #162651, #0b1225);
-}
-
-.js-cover {
-    background: linear-gradient(145deg, #242844, #12152b);
-}
-
-.html-cover {
-    background: linear-gradient(145deg, #2c203a, #121324);
-}
 
 .course-cover i {
     position: relative;
@@ -851,7 +842,7 @@ section {
     font-size: 3rem;
 }
 
-.course-cover > strong {
+.course-cover>strong {
     position: relative;
     z-index: 1;
     color: #b9c7e7;
@@ -904,7 +895,7 @@ section {
     align-items: center;
 }
 
-.course-bottom > strong {
+.course-bottom>strong {
     font-size: .86rem;
 }
 
@@ -977,7 +968,7 @@ section {
     padding: 17px 8px;
 }
 
-.contact-copy > p {
+.contact-copy>p {
     max-width: 520px;
     margin-top: 15px;
     color: var(--muted);
@@ -1051,7 +1042,7 @@ section {
     gap: 60px;
 }
 
-.creator-copy > p {
+.creator-copy>p {
     max-width: 580px;
     margin-top: 13px;
     color: var(--muted);
@@ -1210,7 +1201,7 @@ section {
     gap: 20px;
 }
 
-.footer-main > p {
+.footer-main>p {
     text-align: center;
     color: var(--muted-2);
     font-size: .72rem;
@@ -1241,4 +1232,3 @@ section {
     color: #4e5a72;
     font-size: .63rem;
 }
-

@@ -1,0 +1,58 @@
+{
+  "courses": [
+    {
+      "title": "React Fundamentals",
+      "category": "Web Development",
+      "description": "Build modern and interactive web interfaces with React.",
+      "price": 0,
+      "image": "/assets/images/react.jpg",
+      "lessons": 32,
+      "level": "Beginner",
+      "badge": "Popular",
+      "lang": "React",
+      "fonts-awesome-title": "fa-brands fa-react"
+    },
+    {
+      "title": "JavaScript Essentials",
+      "category": "Web Development",
+      "description": "Master the core concepts of JavaScript and build dynamic web applications.",
+      "price": 0,
+      "currency": "USD",
+      "image": "/assets/images/javascript.jpg",
+      "lessons": 40,
+      "level": "Intermediate",
+      "badge": "Core Skill",
+      "lang": "JS",
+      "fontsAwesomeTitle": "fa-brands fa-js"
+    },
+    {
+      "title": "Web Design Fundamentals",
+      "category": "Web Development",
+      "description": "Learn HTML, CSS, responsive design, and modern UI development.",
+      "price": 0,
+      "currency": "USD",
+      "image": "/assets/images/web-design.jpg",
+      "lessons": 28,
+      "level": "Beginner",
+      "badge": "Start Here",
+      "lang": "HTML, CSS",
+      "fontsAwesomeTitle": "fa-solid fa-browser"
+    },
+    {
+      "title": "Node.js Backend Fundamentals",
+      "category": "Server Development",
+      "description": "Learn how to build server-side applications and APIs using Node.js.",
+      "price": "0",
+      "currency": "USD",
+      "image": "/assets/images/nodejs.jpg",
+      "lessons": 36,
+      "level": "Intermediate",
+      "badge": "Backend",
+      "lang": "node",
+      "fontsAwesomeTitle": "fa-brands fa-node"
+    }
+  ],
+  "types": [
+    "React", "Node.js", "App", "Web"
+  ]
+}
